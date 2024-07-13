@@ -6,7 +6,7 @@ from django.contrib.auth import authenticate
 
 # Create your views here.
 def home (request):
-    return render(request,'useradmin/dashboard.html')
+    return render(request,'useradmin/index.html')
 # register
 
 def signup(request):
