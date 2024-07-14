@@ -44,3 +44,6 @@ def login(request):
     
     context = {'form':form}
     return render(request, 'useradmin/login.html', context=context)
+
+def createMail(request):
+    return render(request,'useradmin/createMail.html')
